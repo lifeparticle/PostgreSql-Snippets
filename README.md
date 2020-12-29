@@ -1,2 +1,1 @@
 # PostgreSql-Snippets
-⌗ Learn PostgreSql.
