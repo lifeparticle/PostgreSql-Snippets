@@ -7,3 +7,28 @@
 [How to Connect to a Heroku Postgres Database With pgAdmin Using Docker](https://towardsdatascience.com/how-to-connect-to-a-heroku-postgres-database-with-pgadmin4-using-docker-6ac1e423ae66)
 
 [How to Run PostgreSQL and pgAdmin Using Docker](https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5)
+
+
+```sql
+brew services restart postgresql@14
+
+psql postgres
+
+# List of Roles 
+\du
+
+# List of databases
+\l
+
+CREATE DATABASE DB_NAME;
+
+# Select the db
+\c DB_NAME
+
+# Show tables
+\dt
+
+
+# Quit
+\q
+```
