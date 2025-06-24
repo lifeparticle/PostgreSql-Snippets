@@ -9,6 +9,22 @@
 [How to Run PostgreSQL and pgAdmin Using Docker](https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5)
 
 
+```shell
+brew services start postgresql
+createuser -s postgres
+brew services restart postgresql
+
+brew unlink postgresql@13
+brew link postgresql@12
+
+brew info postgresql
+```
+
+```shell
+psql -U mahbubzaman -d postgres
+ALTER ROLE postgres WITH SUPERUSER
+```
+
 ```sql
 brew services restart postgresql@14
 
@@ -16,6 +32,11 @@ psql postgres
 
 # List of Roles 
 \du
+
+Role name  |                         Attributes                         | Member of 
+-------------+------------------------------------------------------------+-----------
+ mahbubzaman | Superuser | {}
+ postgres    | Superuser | {}
 
 # List of databases
 \l
