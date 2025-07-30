@@ -22,7 +22,7 @@ brew info postgresql
 
 ```shell
 psql -U mahbubzaman -d postgres
-ALTER ROLE postgres WITH SUPERUSER
+ALTER ROLE postgres WITH SUPERUSER;
 ```
 
 ```sql
