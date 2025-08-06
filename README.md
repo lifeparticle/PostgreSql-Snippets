@@ -55,4 +55,7 @@ CREATE DATABASE DB_NAME;
 
 # Export CSV
 COPY articles TO '/Users/xyz/Desktop/abc/article.csv' DELIMITER ',' CSV HEADER;
+
+# Import CSV
+COPY articles FROM '/Users/xyz/Desktop/abc/article.csv' DELIMITER ',' CSV HEADER;
 ```
