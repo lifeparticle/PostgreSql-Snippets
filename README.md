@@ -49,6 +49,8 @@ CREATE DATABASE DB_NAME;
 # Show tables
 \dt
 
+# column listing
+\d table_name;
 
 # Quit
 \q
