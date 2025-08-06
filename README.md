@@ -52,4 +52,7 @@ CREATE DATABASE DB_NAME;
 
 # Quit
 \q
+
+# Export CSV
+COPY articles TO '/Users/xyz/Desktop/abc/article.csv' DELIMITER ',' CSV HEADER;
 ```
