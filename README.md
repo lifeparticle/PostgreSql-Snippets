@@ -67,3 +67,7 @@ COPY articles FROM '/Users/xyz/Desktop/abc/article.csv' DELIMITER ',' CSV HEADER
 
 - https://www.pgbouncer.org/
 - https://pgpool.net/mediawiki/index.php?title=Main_Page
+
+# Resources
+
+- https://pgtune.leopard.in.ua/
