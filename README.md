@@ -61,3 +61,9 @@ COPY articles TO '/Users/xyz/Desktop/abc/article.csv' DELIMITER ',' CSV HEADER;
 # Import CSV
 COPY articles FROM '/Users/xyz/Desktop/abc/article.csv' DELIMITER ',' CSV HEADER;
 ```
+
+
+# Conncetion pooler
+
+- https://www.pgbouncer.org/
+- https://pgpool.net/mediawiki/index.php?title=Main_Page
